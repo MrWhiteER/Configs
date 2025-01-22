@@ -1,0 +1,122 @@
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+// COMMANDS SHORTCUTS
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+
+alias "dc" "disconnect" 																			// Exit from the server
+alias "s" "status" 																					// Displays the status in the console - server IP, list of players, etc.
+alias "c" "clear" 																					// Clears the console
+alias "mute" "toggle cl_mute_enemy_team 1 0" 														// Disables/Enables communication with the opposing team (text chat).
+alias "shield" "ui_vanitysetting_loadoutslot_t heavy5" 												// The character in the menu gets a shield.
+
+// Quickly give weapons on the local server with sv_cheats 1
+// There is no need to enter 'give weapon_name' of the weapon in the console, just enter its alias name.
+alias "g_ak47" "give weapon_ak47" 																	// Gives AK-47
+alias "b_ak47" "buy weapon_ak47" 																	// Buys AK-47
+alias "g_aug" "give weapon_aug" 																		// Gives AUG
+alias "b_aug" "buy weapon_aug" 																		// Buys AUG
+alias "g_awp" "give weapon_awp" 																		// Gives AWP
+alias "b_awp" "buy weapon_awp" 																		// Buys AWP
+alias "g_dual" "give weapon_elite" 																	// Gives Dual Berettas
+alias "b_dual" "buy weapon_elite" 																	// Buys Dual Berettas
+alias "g_bizon" "give weapon_bizon" 																	// Gives Bizon
+alias "b_bizon" "buy weapon_bizon" 																	// Buys Bizon
+alias "g_c4" "give weapon_c4" 																		// Gives C4 bomb
+alias "b_c4" "buy weapon_c4" 																		// Buys C4 bomb
+alias "g_cz" "give weapon_cz75a" 																	// Gives CZ-75 pistol
+alias "b_cz" "buy weapon_cz75a" 																	// Buys CZ-75 pistol
+alias "g_deagle" "give weapon_deagle" 																// Gives Desert Eagle
+alias "b_deagle" "buy weapon_deagle" 																// Buys Desert Eagle
+alias "g_famas" "give weapon_famas" 																// Gives FAMAS
+alias "b_famas" "buy weapon_famas" 																	// Buys FAMAS
+alias "g_fiveseven" "give weapon_fiveseven" 														// Gives Five-SeveN
+alias "b_fiveseven" "buy weapon_fiveseven" 														// Buys Five-SeveN
+alias "g_g3" "give weapon_g3sg1" 																	// Gives G3SG1 sniper
+alias "b_g3" "buy weapon_g3sg1" 																	// Buys G3SG1 sniper
+alias "g_galil" "give weapon_galilar" 																// Gives Galil
+alias "b_galil" "buy weapon_galilar" 																// Buys Galil
+alias "g_glock" "give weapon_glock" 																	// Gives Glock-18
+alias "b_glock" "buy weapon_glock" 																	// Buys Glock-18
+alias "g_m249" "give weapon_m249" 																	// Gives M249 machine gun
+alias "b_m249" "buy weapon_m249" 																	// Buys M249 machine gun
+alias "g_m4" "give weapon_m4a1" 																		// Gives M4A1 rifle
+alias "b_m4" "buy weapon_m4a1" 																		// Buys M4A1 rifle
+alias "g_m4s" "give weapon_m4a1_silencer" 															// Gives M4A1 silencer
+alias "b_m4s" "buy weapon_m4a1_silencer" 															// Buys M4A1 silencer
+alias "g_mac10" "give weapon_mac10" 																	// Gives MAC-10
+alias "b_mac10" "buy weapon_mac10" 																	// Buys MAC-10
+alias "g_mag7" "give weapon_mag7" 																	// Gives MAG-7 shotgun
+alias "b_mag7" "buy weapon_mag7" 																	// Buys MAG-7 shotgun
+alias "g_mp5" "give weapon_mp5sd" 																	// Gives MP5-SD
+alias "b_mp5" "buy weapon_mp5sd" 																	// Buys MP5-SD
+alias "g_mp7" "give weapon_mp7" 																		// Gives MP7
+alias "b_mp7" "buy weapon_mp7" 																		// Buys MP7
+alias "g_mp9" "give weapon_mp9" 																		// Gives MP9
+alias "b_mp9" "buy weapon_mp9" 																		// Buys MP9
+alias "g_negev" "give weapon_negev" 																	// Gives Negev machine gun
+alias "b_negev" "buy weapon_negev" 																	// Buys Negev machine gun
+alias "g_nova" "give weapon_nova" 																	// Gives Nova shotgun
+alias "b_nova" "buy weapon_nova" 																	// Buys Nova shotgun
+alias "g_p2000" "give weapon_hkp2000" 																// Gives P2000 pistol
+alias "b_p2000" "buy weapon_hkp2000" 																// Buys P2000 pistol
+alias "g_p250" "give weapon_p250" 																	// Gives P250 pistol
+alias "b_p250" "buy weapon_p250" 																	// Buys P250 pistol
+alias "g_rev" "give weapon_revolver" 																	// Gives Revolver
+alias "b_rev" "buy weapon_revolver" 																	// Buys Revolver
+alias "g_sawed" "give weapon_sawedoff" 																// Gives Sawed-off shotgun
+alias "b_sawed" "buy weapon_sawedoff" 																// Buys Sawed-off shotgun
+alias "g_scar20" "give weapon_scar20" 																// Gives SCAR-20 sniper
+alias "b_scar20" "buy weapon_scar20" 																// Buys SCAR-20 sniper
+alias "g_scout" "give weapon_ssg08" 																	// Gives Scout sniper
+alias "b_scout" "buy weapon_ssg08" 																	// Buys Scout sniper
+alias "g_sg" "give weapon_sg556" 																	// Gives SG-556 rifle
+alias "b_sg" "buy weapon_sg556" 																		// Buys SG-556 rifle
+alias "g_swag7" "give weapon_mag7" 																	// Gives MAG-7 shotgun (alias)
+alias "b_swag7" "buy weapon_mag7" 																	// Buys MAG-7 shotgun (alias)
+alias "g_tec" "give weapon_tec9" 																		// Gives Tec-9
+alias "b_tec" "buy weapon_tec9" 																		// Buys Tec-9
+alias "g_ump" "give weapon_ump45" 																	// Gives UMP-45
+alias "b_ump" "buy weapon_ump45" 																	// Buys UMP-45
+alias "g_usp" "give weapon_usp_silencer" 																// Gives USP-S
+alias "b_usp" "buy weapon_usp_silencer" 																// Buys USP-S
+alias "g_xm1014" "give weapon_xm1014" 																// Gives XM1014 shotgun
+alias "b_xm1014" "buy weapon_xm1014" 																// Buys XM1014 shotgun
+
+// Pomegranates
+alias "g_flash" "give weapon_flashbang" 																// Gives Flashbang
+alias "b_flash" "buy weapon_flashbang" 																// Buys Flashbang
+alias "g_he" "give weapon_hegrenade" 																	// Gives HE Grenade
+alias "b_he" "buy weapon_hegrenade" 																	// Buys HE Grenade
+alias "g_smoke" "give weapon_smokegrenade" 															// Gives Smoke Grenade
+alias "b_smoke" "buy weapon_smokegrenade" 															// Buys Smoke Grenade
+alias "g_molo" "give weapon_molotov" 																	// Gives Molotov cocktail
+alias "b_molo" "buy weapon_molotov" 																	// Buys Molotov cocktail
+alias "g_decoy" "give weapon_decoy" 																	// Gives Decoy grenade
+alias "b_decoy" "buy weapon_decoy" 																	// Buys Decoy grenade
+alias "g_snowball" "give weapon_snowball" 															// Gives Snowball (for special game modes)
+alias "b_snowball" "buy weapon_snowball" 															// Buys Snowball (for special game modes)
+alias "g_tag" "give weapon_tagrenade" 																// Gives Tag grenade
+alias "b_tag" "buy weapon_tagrenade" 																	// Buys Tag grenade
+
+// Quickly enable a bot map by entering its name without "de_"
+alias "anubis" "map de_anubis" 																		// Loads map de_anubis
+alias "ancient" "map de_ancient" 																	// Loads map de_ancient
+alias "mirage" "map de_mirage" 																		// Loads map de_mirage
+alias "nuke" "map de_nuke" 																			// Loads map de_nuke
+alias "aztec" "map de_aztec" 																			// Loads map de_aztec
+alias "cache" "map de_cache" 																			// Loads map de_cache
+alias "cobble" "map de_cbble" 																		// Loads map de_cbble
+alias "dust" "map de_dust" 																			// Loads map de_dust
+alias "dust2" "map de_dust2" 																		// Loads map de_dust2
+alias "inferno" "map de_inferno" 																		// Loads map de_inferno
+alias "overpass" "map de_overpass" 																	// Loads map de_overpass
+alias "train" "map de_train" 																		// Loads map de_train
+alias "vertigo" "map de_vertigo" 																	// Loads map de_vertigo
+
+// Max Health for Lan Servers (Local)
+alias "maxhealth" "ent_fire !self sethealth 999999999"												// Sets maximum health for a player on local server
+
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+echo
+echo ---ShortCut Aliases---COMMANDS SHORTCUT Aliases Script is Loaded Correctly and Ready to Use.
+echo
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃

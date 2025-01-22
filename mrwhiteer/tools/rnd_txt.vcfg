@@ -1,0 +1,57 @@
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+// Troll Text
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+
+alias "rnd1" "Why don't scientists trust atoms? Because they make up everything!"
+alias "rnd2" "I told my wife she should embrace her mistakes. She gave me a hug."
+alias "rnd3" "Parallel lines have so much in common. It's a shame they'll never meet."
+alias "rnd4" "I used to play piano by ear, but now I use my hands and fingers."
+alias "rnd5" "Why did the scarecrow win an award? Because he was outstanding in his field!"
+alias "rnd6" "I told my computer I needed a break, and now it won't stop sending me vacation ads."
+alias "rnd7" "I'm on a whiskey diet. I've lost three days already."
+alias "rnd8" "What's a skeleton's least favorite room in the house? The living room."
+alias "rnd9" "I used to be a baker because I kneaded dough."
+alias "rnd10" "Did you hear about the cheese factory that exploded? There was nothing left but de-brie."
+alias "rnd11" "Why did the tomato turn red? Because it saw the salad dressing!"
+alias "rnd12" "I told my wife she was drawing her eyebrows too high. She looked surprised."
+alias "rnd13" "I'm reading a book on anti-gravity. It's impossible to put down."
+alias "rnd14" "Why don't scientists trust stairs? Because they're always up to something."
+alias "rnd15" "I only know 25 letters of the alphabet. I don't know y."
+alias "rnd16" "What do you call fake spaghetti? An impasta."
+alias "rnd17" "I used to be a baker because I kneaded dough."
+alias "rnd18" "I told my computer I needed a break, and now it won't stop sending me vacation ads."
+alias "rnd19" "Why did the scarecrow become a successful motivational speaker? He was outstanding in his field."
+alias "rnd20" "I'm writing a joke about construction, but I'm still working on that one."
+
+
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+echo
+echo ---ShortCut Aliases---COMMANDS SHORTCUT Aliases Script is Loaded Correctly and Ready to Use.
+echo
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+
+
+// Troll Text
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+
+alias "1trolltxt" "rnd1; alias rnd 2trolltxt"
+alias "2trolltxt" "rnd2; alias rnd 3trolltxt"
+alias "3trolltxt" "rnd3; alias rnd 4trolltxt"
+alias "4trolltxt" "rnd4; alias rnd 5trolltxt"
+alias "5trolltxt" "rnd5; alias rnd 6trolltxt"
+alias "6trolltxt" "rnd6; alias rnd 7trolltxt"
+alias "7trolltxt" "rnd7; alias rnd 8trolltxt"
+alias "8trolltxt" "rnd8; alias rnd 9trolltxt"
+alias "9trolltxt" "rnd9; alias rnd 10trolltxt"
+alias "10trolltxt" "rnd10; alias rnd 11trolltxt"
+alias "11trolltxt" "rnd11; alias rnd 12trolltxt"
+alias "12trolltxt" "rnd12; alias rnd 13trolltxt"
+alias "13trolltxt" "rnd13; alias rnd 14trolltxt"
+alias "14trolltxt" "rnd14; alias rnd 15trolltxt"
+alias "15trolltxt" "rnd15; alias rnd 16trolltxt"
+alias "16trolltxt" "rnd16; alias rnd 17trolltxt"
+alias "17trolltxt" "rnd17; alias rnd 18trolltxt"
+alias "18trolltxt" "rnd18; alias rnd 19trolltxt"
+alias "19trolltxt" "rnd19; alias rnd 20trolltxt"
+alias "20trolltxt" "rnd20; alias rnd 1trolltxt"
+alias "rnd" "1trolltxt"

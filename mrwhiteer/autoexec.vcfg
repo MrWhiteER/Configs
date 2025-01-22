@@ -1,0 +1,46 @@
+﻿// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+// Exec Settings and VCFG
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+
+
+//Unmount all the Bindings and Aliases
+unbindall
+
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+// Tools Settings
+echo "Loading Tools Settings"
+// ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+exec "mrwhiteer\tools\exec_alias.vcfg"
+exec "mrwhiteer\tools\junk_alias.vcfg"
+exec "mrwhiteer\tools\scripts.vcfg"
+exec "mrwhiteer\tools\shortcut_alias.vcfg"
+exec "mrwhiteer\tools\rnd_txt.vcfg"
+
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+// Main Settings
+echo "Loading Main Settings"
+// ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+exec "mrwhiteer\mainsettings\gamesettings.vcfg"
+exec "mrwhiteer\mainsettings\key_binds.vcfg"
+
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+// Clear Out The Console
+
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+
+
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+echo +------------------------------------------------- --------------------------+
+echo 
+echo ⁃⁃⁃ Exec Settings ⁃⁃⁃ are Loaded Correctly, Enjoy MrWhiteE_R 
+echo 
+echo +------------------------------------------------- --------------------------+
+echo  
+echo | MrWhiteE_R`s Configuration Has Been Loaded Successfully, Have some Fun! |
+echo 
+echo +------------------------------------------------- --------------------------+
+
+say_team ⁃⁃⁃ Config Loaded | By 🅜🅡 🅦🅗🅘🅣🅔 🅔🅡 ⁃⁃⁃
+
+echo "Please Check if There are any Error after this text (Please make sure that the Errors are fresh after loading the Configs)"
+echo 

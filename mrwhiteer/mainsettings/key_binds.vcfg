@@ -1,0 +1,100 @@
+ECHO
+ECHO ⁃⁃⁃ basic binds settings ⁃⁃⁃ are loaded correctly, enjoy mrwhitee_r 
+ECHO
+
+// MOVE
+bind "scancode26" "+forward"    // move forward
+bind "scancode22" "+back"       // move backward
+bind "scancode4" "+left"       // move left
+bind "scancode7" "+right"      // move right
+bind "scancode224" "+duck"    // crouch
+bind "scancode44" "+jump"   // jump
+bind "scancode225" "+sprint" // walk silently
+
+// WEAPON SELECTION
+bind "scancode30" "slot1"       // primary weapon
+bind "scancode31" "slot2"       // secondary weapon (guns)
+bind "scancode32" "slot3"       // knife, taser
+bind "scancode33" "slot4"       // grenades
+bind "scancode34" "slot5"       // c4, syringe
+bind "scancode35" "slot6"       // exploding grenade
+bind "scancode36" "slot7"       // flashbang
+bind "scancode37" "slot8"       // smoke grenade
+bind "scancode38" "slot9"       // decoy
+bind "scancode39" "slot10"      // molotov, incendiary
+
+// MOUSE
+bind "mouse1" "+attack"           // shoot, place the pack
+bind "mouse4" "player_ping"       // ping the position
+bind "mouse2" "+attack2"          // scope
+bind "mouse5" "+voicerecord"      // voice chat conversation
+bind "mouse_x" "yaw"              // move the mouse on the x axis
+bind "mouse_y" "pitch"            // move the mouse along the y axis
+
+// DIFFERENT
+bind "scancode43" "+showscores"          // results table
+bind "scancode8" "+use"                   // disarming the crate, opening the door, pressing buttons
+bind "scancode21" "+reload"                // reload the weapon
+bind "scancode23" "+spray_menu"            // graffiti menu
+bind "scancode28" "messagemode"            // message to everyone
+bind "scancode24" "messagemode2"           // message to the team
+bind "scancode10" "drop"                   // drop the weapon
+bind "scancode29" "+radialradio"           // new menu with radio wheel
+bind "scancode54" "radio2"                 // basic radio menu
+bind "scancode6" "radio"                  // basic radio menu
+bind "scancode5" "buymenu"                // purchase of weapons
+bind "scancode27" "+quickinv"
+bind "scancode16" "teammenu"               // menu with team selection
+bind "scancode58" "autobuy"               // automatic purchase
+bind "scancode59" "rebuy"                 // rebuy weapons
+
+// CUSTOM
+bind "mouse3" "say :d #the_best; noclip; sm_noclip @me" // custom text and noclip
+bind "scancode52" "+voicerecord"                // voice chat conversation
+bind "mwheeldown" "+jump"              // scroll jump
+bind "mwheelup" "slot3; slot7"         // use flashbang
+bind "scancode49" "wh"                          // start in-game wallhack
+bind "scancode56" "toggleconsole"               // enables the console
+bind "scancode53" "buy vest; buy vesthelm; buy defuser" // buys first gear: armour, helmet, defuse kit
+bind "scancode81" "ngdn"                // players microphone regulation (volume down)
+bind "scancode77" "+distroll"                 // disconnect with troll signature
+bind "scancode40" "mslam"                   // starts slam music player
+bind "scancode73" "showt"                     // shows team-mates name tags and their load
+bind "scancode99" "say nice one mate"      // custom text
+bind "scancode88" "say .l. good game and best regards after all <3" // custom text
+bind "scancode98" "say <3 good luck ladies and gentlemen :d" // custom text
+bind "scancode86" "allgrenades"          // buys/gives all the grenades possible
+bind "scancode87" "allguns"               // buys/gives all the weapons possible
+bind "scancode78" "collorchange"             // changes the color of the crosshair
+bind "scancode75" "addlin"                   // puts/removes bold line for the crosshair
+bind "scancode20" "+qsw"                        // quick switch
+bind "scancode230" "toggle_voice"             // clutch bind - mutes/mutes players
+bind "scancode43" "+scorenet"                 // shows the score with fps and ping
+bind "scancode82" "ngup"                  // players microphone regulation (volume up)
+bind "scancode42" "sellbackall"			// Sell your items back 
+bind "scancode40" "miceopen"			// Toggle/Push_to_talk Mode for your micrphone, please press "Enter"
+bind "scancode12" "slot12"			// X-ray for Overwatch
+bind "scancode9" "+lookatweapon"		// Inspect you item
+bind "scancode25" "switchhands"                 // weapon preview
+
+
+// FUNCTION KEYS
+bind "scancode61" "rnd" 			// types a random text in the game chat (TROLL) 
+bind "scancode66" "vl"				// turns off/on game volume completely
+bind "scancode64" "toggle voice_loopback"	// checking the microphone. click "f9" to check how your microphone sounds in-game
+bind "scancode67" "gm"				// Game mode Changer for LAN	
+bind "scancode68" "mod"				// Game mode Changer Personal  
+bind "scancode69" "ex88"			// Personal Config Loader!
+bind "scancode41" "cancelselect"		// Escape button
+
+// DEACTIVATED COMMANDS
+// bind "mouse2" "+attack2"           // scope, fader and burst
+// bind "mouse3" ""                   // empty
+// bind "mwheelup" "invprev"          // previous weapon
+// bind "mwheeldown" "invnext"        // next weapon
+// bind "f" "+lookatweapon"           // weapon preview
+// bind "v" "+jump; +jumpthrow"       // fast throw of grenades
+// bind "mouse2" "+smokelineup"       // draws a line up crosshair for a smoke
+// bind "space" "+jumpduck"           // allows you to crouch jump
+// bind "v" "+jump; +jumpthrow"       // fast throw of grenades
+// bind "scancode20" "lastinv"        // the last weapon

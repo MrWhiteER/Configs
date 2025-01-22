@@ -1,0 +1,53 @@
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+// JUNK ALIASES
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+
+//Weapon
+alias "1+" "buy rifle1"
+alias "2+" "buy rifle3" 
+alias "3+" "buy secondary4; buy vest"
+alias "4+" "buy flashbang"
+alias "5+" "buy smokegrenade"
+alias "6+" "buy molotov; buy incgrenade"
+
+// Server
+alias "7+" "rpg" 
+alias "8+" "sm_admin"
+alias "9+" "sm_shop"
+alias "10+" "sm_ws"
+alias "11+" "sm_gl"
+alias "12+" "sm_knife"
+alias "13+" "sm_vip"
+alias "14+" "sm_rs"
+alias "15+" "sm_respawn"
+alias "16+" "say Microphone 16+ | Микрофон 16+; sm_csay Микрофон 16+  |  Microphone 16+"
+alias "17+" "sm_vote Полезные_Команды Прокачка|Персонажа|!rpg !ws-выбор|скинов|на|оружия. !knife-Выбор|Ножей. !gl-Выбор|Перчаток. !testvip-Бесплатный|VIP|На|Час. !shop-Косметика|На|Персонажа. !rs-Сбросить|Игровой|Счёт. !lvl-Настройка|Званий.(info) !res-Настройка|Музыки|В|Конце Карты."
+alias "18+" "sm_slap @me"
+
+alias "30+" "unbind kp_1; unbind kp_2; unbind kp_3; unbind kp_4; unbind kp_5; unbind kp_6; unbind kp_7; unbind kp_8; unbind kp_9; unbind kp_multiply; unbind CapsLock;"
+
+
+// Crosshair Collors
+alias "+34" "cl_crosshaircolor 5.000000; cl_crosshairalpha 255.000000; cl_crosshaircolor_b 255.000000; cl_crosshaircolor_g 0.000000; cl_crosshaircolor_r 255.000000; echo Crosshair_Pink"
+alias "+35" "cl_crosshaircolor 5.000000; cl_crosshairalpha 255.000000;  cl_crosshaircolor_b 0.000000; cl_crosshaircolor_g 0.000000; cl_crosshaircolor_r 0.000000; echo Crosshair_Black"
+alias "+36" "cl_crosshaircolor 5.000000; cl_crosshairalpha 255.000000;  cl_crosshaircolor_b 255.000000; cl_crosshaircolor_g 255.000000; cl_crosshaircolor_r 255.000000; echo Crosshair_White"
+alias "+37" "cl_crosshaircolor 5.000000; cl_crosshairalpha 255.000000;  cl_crosshaircolor_b 0.000000; cl_crosshaircolor_g 255.000000; cl_crosshaircolor_r 255.000000; echo Crosshair_Yellow"
+alias "+38" "cl_crosshaircolor 5.000000; cl_crosshairalpha 255.000000;  cl_crosshaircolor_b 0.000000; cl_crosshaircolor_g 127.000000; cl_crosshaircolor_r 255.000000; echo Crosshair_Orange"
+alias "+39" "cl_crosshaircolor 5.000000; cl_crosshairalpha 255.000000;  cl_crosshaircolor_b 0.000000; cl_crosshaircolor_g 0.000000; cl_crosshaircolor_r 255.000000; echo Crosshair_Red"
+alias "+40" "cl_crosshaircolor 5.000000; cl_crosshairalpha 255.000000;  cl_crosshaircolor_b 0.000000; cl_crosshaircolor_g 255.000000; cl_crosshaircolor_r 0.000000; echo Crosshair_Green"
+alias "+43" "cl_crosshairalpha 255.000000; cl_crosshaircolor 5; cl_crosshaircolor_b 255; cl_crosshaircolo r_g 0; cl_crosshaircolor_r 0; echo Crosshair_Blue"
+alias "+41" "cl_crosshair_outlinethickness 0.000031; cl_crosshair_drawoutline 1; echo loaded"
+alias "+42" "cl_crosshair_drawoutline 0; cl_crosshair_outlinethickness 0; echo unloded"
+
+
+
+// Additional
+alias "go" "disconnect; connect 37.230.228.118:27015"
+alias "def" "bind mouse1 +attack; bind shift +sprint; echo Default Settings Loaded; playvol buttons\lever5 0.2"
+
+
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+echo
+echo ---Twists--- Junk and other Aliases Script is Loaded Correctly and Ready to Use.
+echo
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃

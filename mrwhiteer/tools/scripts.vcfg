@@ -1,0 +1,313 @@
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+// 					--- Scripts ---
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+
+// Anti-AFK
+// ------------------
+// Turns on/off the anti-AFK script to simulate movement and prevent being kicked for inactivity.
+alias "afkOn" "+forward; +left; +stamina; alias afk afkOff"  // Starts AFK prevention by moving forward and left
+alias "afkOff" "-forward; -left; -stamina; alias afk afkOn"    // Stops AFK prevention by halting movement
+alias "afk" "afkOn"                                             // Toggle AFK mode
+
+echo
+echo ---Script---Anti-AFK Script is Loaded Correctly and Ready to Use. Press (F5) to turn ON/OFF
+echo
+
+// Better Jump
+// ------------------
+// Makes the player jump and duck simultaneously for improved control during jumps.
+alias "+jumpduck" "+jump; +duck"  // Activates both jump and duck
+alias "-jumpduck" "-jump; -duck"  // Deactivates both jump and duck
+
+echo
+echo ---Script---Better-Jump Script is Loaded Correctly and Ready to Use. Press (Space)
+echo
+
+// Crosshair Color Change
+// ------------------
+// Cycles through different crosshair colors on each press of the bound key.
+alias "collorchange" "collorchange1"        // Initial color setting
+alias "collorchange1" "+34; alias collorchange collorchange2"   // Set to color 34
+alias "collorchange2" "+35; alias collorchange collorchange3"   // Set to color 35
+alias "collorchange3" "+36; alias collorchange collorchange4"   // Set to color 36
+alias "collorchange4" "+37; alias collorchange collorchange5"   // Set to color 37
+alias "collorchange5" "+38; alias collorchange collorchange6"   // Set to color 38
+alias "collorchange6" "+39; alias collorchange collorchange7"   // Set to color 39
+alias "collorchange7" "+40; alias collorchange collorchange8"   // Set to color 40
+alias "collorchange8" "+43; alias collorchange collorchange9"   // Set to color 43
+alias "collorchange9" "+44; alias collorchange collorchange10"  // Set to color 44
+alias "collorchange10" "+45; alias collorchange collorchange11" // Set to color 45
+alias "collorchange11" "+46; alias collorchange collorchange12" // Set to color 46
+alias "collorchange12" "+47; alias collorchange collorchange1"  // Set to color 47
+
+echo
+echo ---Script---Crosshair_Collor Changer Script is Loaded Correctly and Ready to Use. Press (F11) to Change the Config Mod to Crosshair Changer and USE NUM-PAD
+echo
+
+// Crosshair for Smoke Alignment
+// ------------------
+// Changes the crosshair size while attacking and aligns it to throw smoke grenades.
+alias "+smokelineup" "+attack2; toggle cl_crosshairsize 1.5 900" // Activates attack and sets crosshair size for smoke lineup
+alias "-smokelineup" "-attack2; toggle cl_crosshairsize 1.5 900" // Deactivates attack and reverts crosshair size
+
+echo
+echo ---Script---Crosshair for Smoke Changer Script is Loaded Correctly and Ready to Use. Press (F11) to Change the Config Mod to Crosshair Changer and USE NUM-PAD
+echo
+
+// GameMode Changer
+// ------------------
+// Allows switching between different game modes like Warmup or ESL 5v5 configurations.
+alias "1GM" "exec mrwhiteer/lan/lan.vcfg; alias GM 2GM"        // Executes LAN configuration
+alias "2GM" "exec mrwhiteer/lan/warmup.vcfg; alias GM 1GM"    // Executes Warmup configuration
+alias "GM" "1GM"                                              // Toggles between game modes
+
+echo
+echo ---Script---GameMode Changer to Warmup/ESEL5on5/Default Config Script is Loaded Correctly and Ready to Use. Press ( F8 )
+echo
+
+// Game Volume
+// ------------------
+// Mutes or unmutes the game volume with a press of a button.
+alias "vl" "+48"                                              // Mute volume
+alias "+48" "volume 0; echo ; echo ; echo Game Volume is Off; say_team Game Volume is Off, Don’t Mind it, I will Bring It Back When We Will Start; play buttons\\button14 0.2; alias vl +49" // Disable volume and announce
+alias "+49" "volume 1; echo ; echo ; echo Game Volume is On; say_team Game Volume is On; play buttons\\button14 0.2; alias vl +48" // Enable volume and announce
+
+echo
+echo ---Script---Game Volume Script is Loaded Correctly and Ready to Use. Press (F9) to turn ON/OFF
+echo
+
+// Guns and Grenades Drop or Buy Script
+// ------------------
+// Allows the player to buy or drop guns and grenades with a key press.
+alias "allguns" "g_ak47; g_aug; g_awp; g_dual; g_bizon; g_c4; g_cz; g_deagle; g_famas; g_fiveseven; g_g3; g_galil; g_glock; g_m249; g_m4; g_m4s; g_mac10; g_mag7; g_mp5; g_mp7; g_mp9; g_negev; g_nova; g_p2000; g_p250; g_rev; g_sawed; g_scar20; g_scout; g_sg; g_swag7; g_tec; g_ump; g_usp; g_xm1014"  // List of all guns
+alias "grenades" "g_flash; b_flash; g_he; b_he; g_smoke; b_smoke; g_molo; b_molo; g_decoy; b_decoy; g_snowball; b_snowball; g_tag; b_tag" // List of grenades
+
+echo
+echo ---Script---Guns and Grenades Drop or Buy Script is Loaded Correctly and Ready to Use. Press on NumPad ( - for grenades) and ( + for guns)
+echo
+
+// Wallhack
+// ------------------
+// Enables/disables the wallhack (if Sv_Cheats is enabled).
+alias "wh_1" "r_drawothermodels 1; echo ; echo ; echo Wallhack Disabled; play buttons\\button11 0.2; alias wh wh_2;" // Disable wallhack
+alias "wh_2" "r_drawothermodels 2; echo ; echo ; echo Wallhack Enabled; play buttons\\button14 0.2; alias wh wh_1" // Enable wallhack
+alias "wh" "wh_1"                                             // Toggle wallhack
+
+echo
+echo ---Script---Wallhack (if Sv_Cheats 1) Script is Loaded Correctly and Ready to Use. Press ( \ )
+echo
+
+// Jumpthrow Nades
+// ------------------
+// Allows for jumpthrowing grenades when the corresponding key is pressed.
+alias "+jumpthrow" "-attack; -attack2"  // Executes the jumpthrow action
+
+echo
+echo ---Script---Jumpthrow Nades Script is Loaded Correctly and Ready to Use. Press (V)
+echo
+
+// Left and Right Hand Switch
+// ------------------
+// Allows switching between left and right hand view models.
+alias "1lookswap" "+lookatweapon; switchhandsleft; alias lookswap 2lookswap;" // Switches to left hand
+alias "2lookswap" "switchhandsright; alias lookswap 1lookswap"                // Switches to right hand
+alias "lookswap" "1lookswap"                                                 // Toggle hand switch
+
+echo
+echo ---Script---Left and Right Hand Switch Script is Loaded Correctly and Ready to Use. Press (F)
+echo
+
+// Team Mates Health Shower
+// ------------------
+// Toggles the display of teammates' health on screen.
+alias "showt" "showt1"
+alias "showt1" "+cl_show_team_equipment; echo ; echo Health|GUI On; play buttons\\button14 0.2; alias showt showt2"  // Enables health display
+alias "showt2" "-cl_show_team_equipment; echo ; echo Health|GUI Off; play buttons\\button11 0.2; alias showt showt1" // Disables health display
+
+echo
+echo ---Script---Team Mates Health Shower Script is Loaded Correctly and Ready to Use. Press (INS) to turn ON/OFF
+echo
+
+// Outline Crosshair
+// ------------------
+// Toggles the outline around the crosshair.
+alias "addline" "addline1"
+alias "addline1" "+41; alias addline addline2"  // Activates outline
+alias "addline2" "+42; alias addline addline1"  // Deactivates outline
+
+echo
+echo ---Script---Outline Crosshair Changer Script is Loaded Correctly and Ready to Use. Press (PageUP)
+echo
+
+// Quick Disconnect
+// ------------------
+// Disconnects from the server with a custom message.
+alias "+distroll" "say ﷽﷽ ﷽﷽﷽ ﷽﷽﷽ ﷽﷽﷽ ﷽﷽﷽ Bye; disconnect" // Custom disconnect message
+alias "-distroll" "disconnect"                                       // Disconnect without message
+alias "distroll" "+distroll"                                          // Execute disconnect
+
+echo
+echo ---Script---Outline Quick Disconnect Script is Loaded Correctly and Ready to Use. Press (PageUP)
+echo
+
+// Quick Switch
+// ------------------
+// Binds quick weapon switch to specific slots
+alias "+qsw" "slot3"  // Pressing a key triggers slot 3 weapon
+alias "-qsw" "lastinv" // Reverts to the last weapon after release
+
+echo
+echo ---Script---Quick Switch back to Weapon Script is Loaded Correctly and Ready to Use. Press (2>Q)
+echo
+
+// ScoreBoard shows Netgraph
+// ---------------------------
+// Binds scoreboard with Netgraph and FPS display
+alias "+scorenet" "+showscores; cl_showfps 1"  // Shows scoreboard with FPS and Netgraph
+alias "-scorenet" "-showscores; cl_showfps 0"  // Hides scoreboard, FPS, and Netgraph
+developer "1"  // Enables developer mode for debugging
+
+echo
+echo ---Script---ScoreBoard shows Netgraph Script is Loaded Correctly and Ready to Use. Press (TAB)
+echo
+
+// Config Mode Changer
+// --------------------
+// Allows quick switching between different game modes
+alias "mod1" "30+; playvol buttons\weapon_confirm 0.2; bind kp_1 7+; bind kp_2 8+; bind kp_3 9+; bind kp_4 10+; bind kp_5 11+; bind kp_6 12+; bind kp_7 13+; bind kp_8 14+; bind kp_9 15+; bind kp_multiply 16+; bind rctrl 17+; bind CapsLock 18+; say_team Server Mode; echo Server Mode;  alias mod mod2"  // Mode 1 (Server Mode) binding
+alias "mod2" "30+; playvol buttons\button2 0.2; bind kp_1 1+; bind kp_2 2+; bind kp_3 3+; bind kp_4 4+; bind kp_5 5+; bind kp_6 6+; bind space +jumpduck; def; say_team Normal Game Mode; echo Normal Game Mode; alias mod mod3"  // Mode 2 (Normal Game Mode) binding
+alias "mod3" "30+; playvol buttons\weapon_confirm 0.2; bind kp_1 20+; bind kp_2 21+; bind kp_3 22+; bind kp_4 23+; bind kp_5 24+; bind kp_6 25+; bind kp_7 26+; bind kp_8 27+; bind kp_9 28+; bind space +jumpduck; def; say_team Crosshair Changing Mode; echo Crosshair Changing Mode; alias mod mod1"  // Mode 3 (Crosshair Changing Mode) binding
+alias "mod" "mod2"  // Default alias to switch between modes
+
+echo
+echo ---Script---Config Mode Changer Script is Loaded Correctly and Ready to Use. Press (F12)
+echo
+
+// Shooting Style Walk and Shoot
+// ------------------------------
+// Binds keys for walking while shooting
+alias "cfire" "def; cfireon; echo Walk & Shoot Activated; playvol buttons\lever2 0.2; say_team Walk&Shoot Activated!"  // Activates walk and shoot
+alias "cfireon" "bind mouse1 +cfire; alias cfire cfireoff"  // Sets up mouse1 to trigger walk and shoot
+alias "cfireoff" "bind mouse1 +attack; alias cfire cfireon"  // Reverts to normal attack binding
+alias "+cfire" "+sprint; +attack"  // Binds sprinting and attacking simultaneously
+alias "-cfire" "-attack; -sprint"  // Ends both sprint and attack when released
+
+echo
+echo ---Script---Shooting Style Walk and Shoot Script is Loaded Correctly and Ready to Use. Press (F10)
+echo
+
+// Shooting Style Bug and Shoot
+// ------------------------------
+// Binds reload and shoot functionality
+alias "rfire" "def; rfireon; echo Reload & Shoot Activated; playvol buttons\lever4 0.2; say_team Reload&Shoot Activated!"  // Activates reload and shoot
+alias "rfireon" "bind mouse1 +rfire; alias rfire rfireoff"  // Binds mouse1 to trigger reload and shoot
+alias "rfireoff" "bind mouse1 +attack; alias rfire rfireon"  // Reverts to normal attack binding
+alias "+rfire" "+attack;"  // Binds reload and attack together
+alias "-rfire" "-attack; +qsw"  // Ends attack, switches back to weapon
+
+echo
+echo ---Script--- Shooting Style Bug and Shoot Script is Loaded Correctly and Ready to Use. Press (F10)
+echo
+
+// Shooting Style Button Configuration
+// ------------------------------------
+// Switches between different shooting styles
+alias "Style_1" "dfire; alias Style Style_2"  // Button 1 (Duck & Shoot)
+alias "Style_2" "cfire; alias Style Style_3"  // Button 2 (Walk & Shoot)
+alias "Style_3" "vfire; alias Style Style_4"  // Button 3 (Inspect & Shoot)
+alias "Style_4" "rfire; alias Style Style_1"  // Button 4 (Reload & Shoot)
+alias "Style" "Style_1"  // Default shooting style set to Duck & Shoot
+
+echo
+echo ---Script--- Shooting Style Button Configuration Script is Loaded Correctly and Ready to Use. Press (F10)
+echo
+
+// Shooting Style Duck and Shoot
+// ------------------------------
+// Binds ducking and shooting together
+alias "dfire" "def; dfireon;  echo Duck & Shoot Activated; playvol buttons\lever1 0.2; say_team Duck&Shoot Activated!"  // Activates duck and shoot
+alias "dfireon" "bind mouse1 +fire; alias dfire dfireoff"  // Binds mouse1 to trigger duck and shoot
+alias "dfireoff" "bind mouse1 +attack; alias dfire dfireon"  // Reverts to normal attack binding
+alias "+fire" "+duck; +attack"  // Binds ducking and attacking simultaneously
+alias "-fire" "-attack; -duck"  // Ends both attack and duck when released
+
+echo
+echo ---Script--- Shooting Style Duck and Shoot Script is Loaded Correctly and Ready to Use. Press (F10)
+echo
+
+// Shooting Style Inspect and Shoot
+// ---------------------------------
+// Binds inspect weapon and shoot functionality
+alias "vfire" "def; vfireon; echo One Bullet & Shoot Activated; playvol buttons\lever3 0.2; say_team One|Bullet&Shoot Activated!"  // Activates inspect weapon and shoot
+alias "vfireon" "bind mouse1 +vfire; alias vfire vfireoff"  // Binds mouse1 to trigger inspect and shoot
+alias "vfireoff" "bind mouse1 +attack; alias vfire vfireon"  // Reverts to normal attack binding
+alias "+vfire" "+attack; +lookatweapon"  // Binds attack and weapon inspection together
+alias "-vfire" "-attack; -lookatweapon"  // Ends both attack and weapon inspection when released
+
+echo
+echo ---Script--- Shooting Style Inspect and Shoot Script is Loaded Correctly and Ready to Use. Press (F10)
+echo
+
+// Player Microphone Toggle/Hold Mode
+// -------------------------
+// Allows you to switch between toggle microphone mode and push and hold
+alias "1miceopen" "+voicerecord; echo Open Microphone Activated!; say_team Open Microphone Activated!; alias miceopen 2miceopen" 
+alias "2miceopen" "-voicerecord; echo Microphone Back to Normal!; say_team Microphone Back to Normal!; alias miceopen 1miceopen"
+alias "miceopen" "1miceopen"
+
+echo
+echo ---Script--- Player Microphone Toggle/Hold Mode  Script is Loaded Correctly and Ready to Use. Press (Enter)
+echo
+
+// Un/Mute Voice Chat Script
+// --------------------------
+// Toggles voice chat on and off
+alias "toggle_voice_1" "clutch_mode_toggle; echo Voice Enable is OFF!; play buttons\button11 0.2; playerradio radio.cheer; say_team I Muted You all Because, I am Either Clutching or You are Just Too Loud!; alias toggle_voice toggle_voice_2"  // Mutes the voice chat
+alias "toggle_voice_2" "clutch_mode_toggle; echo Voice Enable is ON!; play buttons\button14 0.2; playerradio Radio.GoGoGo; say_team You Guys are Unmuted, Lets Roll Now!; alias toggle_voice toggle_voice_1"  // Unmutes the voice chat
+alias "toggle_voice" "toggle_voice_1"  // Default mute state
+
+echo
+echo ---Script--- Un/Mute Script is Loaded Correctly and Ready to Use. Press (Right-ALT)
+echo
+
+// ViewMod Changer Script
+// -----------------------
+// Switches between different view modes
+alias "Viewmod_1" "+31; alias Viewmod Viewmod_2"  // View Mode 1
+alias "Viewmod_2" "+32; alias Viewmod Viewmod_3"  // View Mode 2
+alias "Viewmod_3" "+33; alias Viewmod Viewmod_1"  // View Mode 3
+alias "Viewmod" "Viewmod_1"  // Default view mode set to 1
+
+echo
+echo ---Script--- Viewmod Changer Script is Loaded Correctly and Ready to Use. Press (Shift)
+echo
+
+// Voice Chat Volume Controller
+// -----------------------
+// Controlls the volume of the players microphone
+alias "ngmin" "playvol ambient\water\water_splash1 1; voice_scale 0;echo |*__________| VOICE   0% MINIMUM!;alias ngup ng1;alias ngdn ngmin"  // Sets voice chat volume to 0% with a sound indicator for the minimum
+alias "ng1" "playvol ambient\water\water_splash1 1; voice_scale 0.1;echo  |_*_________| VOICE  10%;alias ngup ng2;alias ngdn ngmin"  // Sets voice chat volume to 10% and prepares for volume up/down controls
+alias "ng2" "playvol ambient\water\water_splash1 1; voice_scale 0.2;echo  |__*________| VOICE  20%;alias ngup ng3;alias ngdn ng1"  // Sets voice chat volume to 20% and prepares for volume up/down controls
+alias "ng3" "playvol ambient\water\water_splash1 1; voice_scale 0.3;echo  |___*_______| VOICE  30%;alias ngup ng4;alias ngdn ng2"  // Sets voice chat volume to 30% and prepares for volume up/down controls
+alias "ng4" "playvol ambient\water\water_splash1 1; voice_scale 0.4;echo  |____*______| VOICE  40%;alias ngup ng5;alias ngdn ng3"  // Sets voice chat volume to 40% and prepares for volume up/down controls
+alias "ng5" "playvol ambient\water\water_splash1 1; voice_scale 0.5;echo  |_____*_____| VOICE  50%;alias ngup ng6;alias ngdn ng4"  // Sets voice chat volume to 50% and prepares for volume up/down controls
+alias "ng6" "playvol ambient\water\water_splash1 1; voice_scale 0.6;echo  |______*____| VOICE  60%;alias ngup ng7;alias ngdn ng5"  // Sets voice chat volume to 60% and prepares for volume up/down controls
+alias "ng7" "playvol ambient\water\water_splash1 1; voice_scale 0.7;echo  |_______*___| VOICE  70%;alias ngup ng8;alias ngdn ng6"  // Sets voice chat volume to 70% and prepares for volume up/down controls
+alias "ng8" "playvol ambient\water\water_splash1 1; voice_scale 0.8;echo  |________*__| VOICE  80%;alias ngup ng9;alias ngdn ng7"  // Sets voice chat volume to 80% and prepares for volume up/down controls
+alias "ng9" "playvol ambient\water\water_splash1 1; voice_scale 0.9;echo  |_________*_| VOICE  90%;alias ngup ng10;alias ngdn ng8"  // Sets voice chat volume to 90% and prepares for volume up/down controls
+alias "ng10" "playvol ambient\water\water_splash1 1; voice_scale 1;echo  |__________*| VOICE 100% MAXIMUM!;alias ngdn ng9"  // Sets voice chat volume to 100% and indicates maximum volume
+alias "ngup" "ng1"  // Binds the 'up' arrow key to increase the volume to the next level (ng1)
+alias "ngdn" "ng1"  // Binds the 'down' arrow key to reset the volume to the minimum (ng1)
+
+echo
+echo ---Script--- Voice Chat Volume Controller Script is Loaded Correctly and Ready to Use. Press ( UP/Down Arrows )  // Displays a message confirming the script is loaded and ready
+echo
+
+
+
+
+echo ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+echo
+echo ---Scripts---Scripts are Loaded Correctly and Ready to Use.  // Confirmation message for all loaded scripts
+echo
+

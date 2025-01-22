@@ -1,0 +1,8 @@
+-full -console -novid -nojoy +mat_queue_mode 2 -d3d9ex -threads 4 -tickrate 128 -high +cl_updaterate 128 +cl_cmdrate 128 +rate 128000 +exec mrwhiteer\autoexec.vcfg
+
+
+
+
+
+
+-w1920  -h 1440 -windowed -noborder -full -console -novid -nojoy +mat_queue_mode 2 -d3d9ex -threads 4 -tickrate 128 -high +cl_updaterate 128 +cl_cmdrate 128 +rate 128000 +exec mrwhiteer\autoexec.vcfg 

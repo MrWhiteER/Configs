@@ -1,0 +1,22 @@
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+// EXEC COMMAND SHORTCUTS
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+
+// Exec ShortCuts
+alias "ex1" "exec mrwhiteer\crosshair\crosshair_1.vcfg"
+alias "ex2" "exec mrwhiteer\crosshair\crosshair_2.vcfg"
+alias "ex3" "exec mrwhiteer\crosshair\crosshair_3.vcfg"
+alias "ex4" "exec mrwhiteer\crosshair\crosshair_4.vcfg"
+alias "ex5" "exec mrwhiteer\crosshair\crosshair_5.vcfg"
+alias "ex6" "exec mrwhiteer\crosshair\crosshair_6.vcfg"
+alias "ex7" "exec mrwhiteer\crosshair\crosshair_7.vcfg"
+alias "ex8" "exec mrwhiteer\crosshair\crosshair_8.vcfg"
+alias "ex9" "exec mrwhiteer\crosshair\crosshair_9.vcfg"
+alias "ex88" "exec mrwhiteer\autoexec.vcfg"
+
+
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃
+echo
+echo ---Exec---COMMAND SHORTCUTS Script is Loaded Correctly and Ready to Use.
+echo
+// ⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃⁃⁃⁃⁃⁃ ⁃⁃⁃

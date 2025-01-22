@@ -1,0 +1,86 @@
+// Game Settings - MrWhiteE_R Graphics | Sound | HUD | ETC
+
+// GRAPHICS
+battery_saver "false"  // Disables laptop power savings.
+cl_ping_fade_deadzone "150"  // The distance at which the ping completely disappears between the crosshair and the ping. [Standard - 60]
+cl_ping_fade_distance "350"  // Distance at which the ping fades between the crosshair and the ping. [Standard - 300]
+cl_teamid_overhead_colors_show "1"  // Enables colored player nicknames. [0 - team color, 1 - player color, 2 - player color and icon]
+cl_teamid_overhead_mode "2"  // Shows nicknames through walls. [0 - disabled, 1 - tag, 2 - tag, nickname and equipment]
+engine_no_focus_sleep "0"  // Disables the game from sleep when minimized. [0 - disables FPS limitation, 20 - default frame limitation]
+fps_max "299"  // Maximum FPS in the game.
+fps_max_ui "240"  // Maximum FPS in the menu.
+r_fullscreen_gamma "2.5"  // Game brightness level. [Default 2.2]
+r_player_visibility_mode "1"  // Player contrast. [0 - off, 1 - on]
+r_show_build_info "0"  // Disables the build info in the lower left corner of the screen.
+
+// HUD
+cl_allow_animated_avatars "0"  // Disables animated avatars on Steam in the game.
+cl_autohelp "1"  // Displays notifications about changing the shooting mode in Glock and Famas.
+cl_hide_avatar_images "0"  // Displays avatars. [0 - visible, 1 - replaced]
+cl_hud_color "4"  // HUD color. [4 - dark blue]
+cl_sanitize_muted_players "0"  // Shows muted players' nicknames. [0 - visible, 1 - hidden]
+cl_sanitize_player_names "0"  // Display player nicknames. [0 - enabled, 1 - disabled]
+cl_scoreboard_mouse_enable_binding "+attack2"  // Button to activate the cursor in the scoreboard.
+cl_show_clan_in_death_notice "0"  // Show Steam group names in the killfeed. [0 - disabled, 1 - enabled]
+cl_showfps "0"  // Show FPS in the upper left corner. [0 - disabled, 1 - enabled]
+cl_showloadout "1"  // Display weapon icons in the lower right corner.
+cl_teamcounter_playercount_instead_of_avatars "1"  // Show player count in the HUD. [0 - avatars, 1 - number of players]
+gameinstructor_enable "0"  // Disable hints in a beginner's game. [0 - disabled, 1 - enabled]
+safezonex "1.0"  // HUD right-left positioning. [0.1 - 1.0 range]
+safezoney "1.0"  // HUD up-down positioning. [0.1 - 1.0 range]
+ui_steam_overlay_notification_position "topright"  // Community notification position.
+ui_steam_overlay_notification_position_horz "0"  // Horizontal offset for notifications.
+ui_steam_overlay_notification_position_vert "0"  // Vertical offset for notifications.
+
+// Radar
+cl_hud_radar_scale "1.15"  // Magnifies the radar.
+cl_radar_icon_scale_min "0.9"  // Player icon size on the radar.
+cl_radar_always_centered "0"  // Turns off black background around radar.
+cl_radar_rotate "1"  // Enables radar rotation.
+cl_radar_scale "0.4"  // Scale of the radar map.
+cl_radar_square_with_scoreboard "1"  // Radar changes to square when scoreboard is enabled.
+
+// Weapon Model View (ViewModel)
+viewmodel_presetpos "3"  // Classic weapon position.
+viewmodel_fov "68"  // Weapon field of view.
+viewmodel_offset_z "-1.5"  // Vertical weapon position.
+viewmodel_offset_x "2.5"  // Horizontal weapon position (left/right).
+viewmodel_offset_y "0"  // Depth weapon position (front/back).
+
+// Shopping Menu
+cl_use_opens_buy_menu "0"  // Disables buying weapons with the "E" (+use) button.
+cl_buywheel_nonumberpurchasing "0"  // Enables buying weapons with numbers. [0 - enabled, 1 - disabled]
+cl_buywheel_donate_key "0"  // Button for buying weapons for teammates. [0 - left ctrl, 1 - left alt, 2 - left shift]
+
+// Crosshair (Default Settings) - VIEWFINDER
+cl_crosshair_friendly_warning "2"  // Displays a warning circle when targeting a team member.
+cl_crosshair_recoil "0"  // Crosshair follows the recoil. [0 - disables, 1 - enables]
+cl_crosshair_sniper_width "2"  // Thicker crosshair lines in AWP.
+cl_show_observer_crosshair "2"  // Display other players' crosshairs. [0 - disabled, 1 - friends, 2 - everyone]
+hud_showtargetid "1"  // Display enemy nickname when targeting.
+
+
+// SOUND
+volume "1"  // Overall game volume.
+voice_modenable "1"  // Enables voice communication. [0 - disabled, 1 - enabled]
+snd_voipvolume "0.7"  // Voice communication volume at 70%.
+snd_mute_losefocus "0"  // Keeps game sounds when minimized. [0 - on, 1 - off]
+snd_headphone_eq "1"  // Equalizer profile. [0 - standard, 1 - expressive, 2 - smoothed]
+snd_spatialize_lerp "0.0"  // Channel separation. [0 - off]
+snd_steamaudio_enable_perspective_correction "0"  // Perspective correction in audio.
+cl_player_ping_mute "0"  // Volume of position ping sound. [0 - enabled, 1 - disabled]
+snd_menumusic_volume "0.015"  // Music volume in the menu.
+snd_roundstart_volume "0"  // Music volume at the start of the round.
+snd_mapobjective_volume "0"  // Music volume after bomb plant.
+snd_deathcamera_volume "0"  // Sound volume during death camera.
+snd_roundend_volume "0"  // Music volume after round ends.
+snd_tensecondwarning_volume "0.015" // Music volume when 10 seconds remain before bomb explosion.
+snd_mvp_volume "0.07"  // MVP music volume after round ends.
+snd_mute_mvp_music_live_players "0"  // Disables MVP music if opponent is alive.
+voice_threshold 120			// This command would make your microphone activate when there is very little volume.
+
+
+// MOUSE
+zoom_sensitivity_ratio "0.818933027098955175"	// Mouse sensitivity when aiming with awp/scout.
+sensitivity "0.818933027098955175" 		// Main mouse sensitivity. *
+
