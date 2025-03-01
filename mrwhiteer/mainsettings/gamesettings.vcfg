@@ -81,5 +81,5 @@ voice_threshold 120			// This command would make your microphone activate when t
 
 // MOUSE
 zoom_sensitivity_ratio "0.818933027098955175"	// Mouse sensitivity when aiming with awp/scout.
-sensitivity "0.818933027098955175" 		// Main mouse sensitivity. *
+sensitivity "0.6" 		// Main mouse sensitivity. *
 
