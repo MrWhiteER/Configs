@@ -41,11 +41,10 @@ cl_radar_scale "0.4"  // Scale of the radar map.
 cl_radar_square_with_scoreboard "1"  // Radar changes to square when scoreboard is enabled.
 
 // Weapon Model View (ViewModel)
-viewmodel_presetpos "3"  // Classic weapon position.
 viewmodel_fov "68"  // Weapon field of view.
-viewmodel_offset_z "-1.5"  // Vertical weapon position.
+viewmodel_offset_z "-2.0"  // Vertical weapon position.
 viewmodel_offset_x "2.5"  // Horizontal weapon position (left/right).
-viewmodel_offset_y "0"  // Depth weapon position (front/back).
+viewmodel_offset_y "2.0"  // Depth weapon position (front/back).
 
 // Shopping Menu
 cl_use_opens_buy_menu "0"  // Disables buying weapons with the "E" (+use) button.
