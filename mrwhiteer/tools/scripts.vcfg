@@ -80,7 +80,7 @@ echo
 // ------------------
 // Allows the player to buy or drop guns and grenades with a key press.
 alias "allguns" "g_ak47; g_aug; g_awp; g_dual; g_bizon; g_c4; g_cz; g_deagle; g_famas; g_fiveseven; g_g3; g_galil; g_glock; g_m249; g_m4; g_m4s; g_mac10; g_mag7; g_mp5; g_mp7; g_mp9; g_negev; g_nova; g_p2000; g_p250; g_rev; g_sawed; g_scar20; g_scout; g_sg; g_swag7; g_tec; g_ump; g_usp; g_xm1014"  // List of all guns
-alias "grenades" "g_flash; b_flash; g_he; b_he; g_smoke; b_smoke; g_molo; b_molo; g_decoy; b_decoy; g_snowball; b_snowball; g_tag; b_tag" // List of grenades
+alias "allgrenades" "g_flash; b_flash; g_he; b_he; g_smoke; b_smoke; g_molo; b_molo; g_decoy; b_decoy; g_snowball; b_snowball; g_tag; b_tag" // List of grenades
 
 echo
 echo ---Script---Guns and Grenades Drop or Buy Script is Loaded Correctly and Ready to Use. Press on NumPad ( - for grenades) and ( + for guns)
