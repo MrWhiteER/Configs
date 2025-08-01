@@ -50,7 +50,7 @@ bind "scancode59" "rebuy"                 // rebuy weapons
 
 // CUSTOM
 bind "mouse3" "say :d #the_best; noclip; sm_noclip @me" // custom text and noclip
-bind "scancode52" "+voicerecord"                // voice chat conversation
+bind "scancode106" "+voicerecord"                // voice chat conversation
 bind "mwheeldown" "+jump"              // scroll jump
 bind "mwheelup" "slot3; slot7"         // use flashbang
 bind "scancode49" "wh"                          // start in-game wallhack
@@ -98,3 +98,4 @@ bind "scancode41" "cancelselect"		// Escape button
 // bind "space" "+jumpduck"           // allows you to crouch jump
 // bind "v" "+jump; +jumpthrow"       // fast throw of grenades
 // bind "scancode20" "lastinv"        // the last weapon
+
