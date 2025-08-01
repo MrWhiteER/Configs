@@ -25,8 +25,9 @@ bind "scancode39" "slot10"      // molotov, incendiary
 
 // MOUSE
 bind "mouse1" "+attack"           // shoot, place the pack
-bind "mouse4" "player_ping"       // ping the position
 bind "mouse2" "+attack2"          // scope
+bind "mouse3" "say :d #the_best; noclip; sm_noclip @me" // custom text and noclip
+bind "mouse4" "player_ping"       // ping the position
 bind "mouse5" "+voicerecord"      // voice chat conversation
 bind "mouse_x" "yaw"              // move the mouse on the x axis
 bind "mouse_y" "pitch"            // move the mouse along the y axis
@@ -49,7 +50,6 @@ bind "scancode58" "autobuy"               // automatic purchase
 bind "scancode59" "rebuy"                 // rebuy weapons
 
 // CUSTOM
-bind "mouse3" "say :d #the_best; noclip; sm_noclip @me" // custom text and noclip
 bind "scancode106" "+voicerecord"                // voice chat conversation
 bind "mwheeldown" "+jump"              // scroll jump
 bind "mwheelup" "slot3; slot7"         // use flashbang
@@ -98,4 +98,5 @@ bind "scancode41" "cancelselect"		// Escape button
 // bind "space" "+jumpduck"           // allows you to crouch jump
 // bind "v" "+jump; +jumpthrow"       // fast throw of grenades
 // bind "scancode20" "lastinv"        // the last weapon
+
 
