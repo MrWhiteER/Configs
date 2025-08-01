@@ -31,6 +31,8 @@ bind "mouse4" "player_ping"       // ping the position
 bind "mouse5" "+voicerecord"      // voice chat conversation
 bind "mouse_x" "yaw"              // move the mouse on the x axis
 bind "mouse_y" "pitch"            // move the mouse along the y axis
+bind "mwheeldown" "+jump"              // scroll jump
+bind "mwheelup" "slot3; slot7"         // use flashbang
 
 // DIFFERENT
 bind "scancode43" "+showscores"          // results table
@@ -51,8 +53,6 @@ bind "scancode59" "rebuy"                 // rebuy weapons
 
 // CUSTOM
 bind "scancode106" "+voicerecord"                // voice chat conversation
-bind "mwheeldown" "+jump"              // scroll jump
-bind "mwheelup" "slot3; slot7"         // use flashbang
 bind "scancode49" "wh"                          // start in-game wallhack
 bind "scancode56" "toggleconsole"               // enables the console
 bind "scancode53" "buy vest; buy vesthelm; buy defuser" // buys first gear: armour, helmet, defuse kit
@@ -98,5 +98,6 @@ bind "scancode41" "cancelselect"		// Escape button
 // bind "space" "+jumpduck"           // allows you to crouch jump
 // bind "v" "+jump; +jumpthrow"       // fast throw of grenades
 // bind "scancode20" "lastinv"        // the last weapon
+
 
 
